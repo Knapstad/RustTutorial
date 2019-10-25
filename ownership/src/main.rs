@@ -19,9 +19,12 @@ fn main(){
 
     //strings
     let s1 = String::from("Hello"); // poiter pushed to stack values on heap
-    let s2= s1; // s1 moved to s2, s1 nolonger valid
+    let s2 = s1; // s1 moved to s2, s1 nolonger valid
     println!("{}",s2); //s2 will work s1 not so mutch
 
     // copy
+    let s1 = String::from("Hello");
+    let s2 = s1.clone();// made s2 a clone of s1 
+    println!("{} {}",s2, s1); 
 
 }// scope over and memory returned

@@ -27,4 +27,8 @@ fn main(){
     let s2 = s1.clone();// made s2 a clone of s1 
     println!("{} {}",s2, s1); 
 
+    let x = 5;
+    let y = x; //simple datatype, known size therfore this works
+    println!("{} are the 'same' {}", x, y);
+
 }// scope over and memory returned

@@ -5,7 +5,7 @@ fn main() {
 
 
     println!("{} {}",int, float);
-
+// Numeric opperations
     let sum = 5 + 10;
 
     let difference = 95.5 - 3.1;
@@ -16,4 +16,17 @@ fn main() {
 
     let remainder = 43 % 5;
     println!("sum: {}\ndiff: {}\nprod: {}\nquot: {}\nremain: {}", sum, difference, product, quotient, remainder)
+
+//Boolean
+
+    let t = true;
+
+    let f: bool = false;
+
+// Char types
+
+    let c = 'z';
+    let z = 'Z';
+    let heart_eyed_cat = '😻';
+
 }

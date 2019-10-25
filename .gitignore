@@ -1,6 +1,10 @@
 /target
+<<<<<<< HEAD
 **/*.rs.bk
 hello.exe
 hello.pdb
 hello.rs
 .exe
+=======
+**/*.rs.bk
+>>>>>>> a69ceff764cd2306f017ccf86bbff0c27df94e64

@@ -4,6 +4,8 @@ fn main() {
     yet_another_function("hello");
     multi_param_function(3, "Bendik");
     expression_statement();
+    let x = some_return_function();
+    println!("the return is: {}",x);
 
 }
 fn yet_another_function(x: &str) {
@@ -26,4 +28,8 @@ fn expression_statement(){
         x+1 // no semicolon to make it a expression
     };
     println!("The value of y is {}", y)
+}
+
+fn some_return_function() -> i32{
+    5
 }

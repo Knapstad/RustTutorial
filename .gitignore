@@ -1,0 +1,6 @@
+/target
+**/*.rs.bk
+hello.exe
+hello.pdb
+hello.rs
+.exe

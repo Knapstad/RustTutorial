@@ -33,5 +33,10 @@ fn main() {
     }
     println!("Liftoff!!!");
 
+    //for loop
+    let a = [1,2,3,4,5];
+    for element in a.iter(){
+        println!("The value is {}", element);
+    }
 
 }

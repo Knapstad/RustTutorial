@@ -14,5 +14,16 @@ fn main() {
         println!("counting to 3... {}", num);
         num+=1;
     }
+
+    //return value from loop
+    let mut count = 0;
+    let result = loop{
+        count +=1;
+        if count == 10 {
+            break count *2;
+        }
+    };
+    println!("result is: {}", result);
+
 }
 

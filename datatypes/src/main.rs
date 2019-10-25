@@ -41,4 +41,6 @@ fn main() {
     let b: [i32;5] = [1, 2, 3, 4, 5];
     let c = [3; 5];
     println!("{:?}\n{:?}\n{:?}", a, b, c);
+    println!("first element of a is: {:?}",a[0]);
+    println!("second element of b is {:?}",b[1])
 }

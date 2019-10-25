@@ -39,4 +39,11 @@ fn main() {
         println!("The value is {}", element);
     }
 
+    // for loop range
+    for number in (1..9).rev() {
+        println!("{}! range", number);
+    }
+
+
+
 }

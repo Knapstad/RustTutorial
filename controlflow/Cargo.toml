@@ -1,0 +1,7 @@
+[package]
+name = "controlflow"
+version = "0.1.0"
+authors = ["Bendik <knaben@OBOS.NO>"]
+edition = "2018"
+
+[dependencies]

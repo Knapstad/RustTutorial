@@ -23,7 +23,7 @@ fn expression_statement(){
 
     let y= { // expression
         let x = x-2;
-        x+1;
+        x+1 // no semicolon to make it a expression
     };
     println!("The value of y is {}", y)
 }
